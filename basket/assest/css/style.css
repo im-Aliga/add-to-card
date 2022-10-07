@@ -1,0 +1,51 @@
+.section {
+  background-color: cadetblue;
+}
+.section .left img {
+  width: 5%;
+  height: auto;
+  margin-left: 50px;
+}
+.section .right {
+  position: relative;
+}
+.section .right span {
+  margin-right: 80px;
+  position: absolute;
+  top: -9px;
+  right: -5px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 1px 7px;
+  font-size: 10px;
+}
+.section .right i {
+  margin-right: 80px;
+}
+
+#toaster {
+  position: fixed;
+  bottom: 20px;
+  left: 45%;
+  opacity: 0;
+  transition: 0.5s;
+}
+#toaster span {
+  border-radius: 40px;
+}
+
+#toaster2 {
+  position: fixed;
+  bottom: 20px;
+  left: 45%;
+  opacity: 0;
+  transition: 0.5s;
+}
+#toaster2 span {
+  border-radius: 40px;
+}
+
+.galary img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

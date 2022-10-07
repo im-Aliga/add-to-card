@@ -1,0 +1,53 @@
+.section{
+    background-color: cadetblue;
+    .left{
+        img{
+            width: 5%;
+            height: auto;
+           margin-left: 50px;
+        }
+    }
+    .right{
+        position: relative;
+        span{
+            margin-right: 80px;
+            position: absolute;
+            top: -9px;
+            right: -5px;
+            background-color: white;
+            border-radius: 100%;
+            padding: 1px 7px;
+            font-size: 10px;
+        }
+
+        i{
+            margin-right: 80px;
+            
+        }
+    }
+}
+#toaster{
+    position: fixed;
+    bottom: 20px;
+    left: 45%;
+    opacity: 0;
+    transition: 0.5s;
+    span{
+        border-radius: 40px;
+    }
+}
+#toaster2{
+    position: fixed;
+    bottom: 20px;
+    left: 45%;
+    opacity: 0;
+    transition: 0.5s;
+    span{
+        border-radius: 40px;
+    }
+}
+.galary{
+    img{
+        object-fit: cover;
+    }
+}
